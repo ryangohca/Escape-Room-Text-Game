@@ -1,0 +1,45 @@
+Player used Ctrl-C to quit the game.
+
+START INPUT/OUTPUT
+------------------
+
+Welcome to this escape room game!
+
+The plot
+----------
+This is 3100, and many more technologies had been created,
+including strange things like game locks (locks that open if
+you win in a game), x-ray glasses that can see through things
+etc.
+
+You live in this era, and being as unlucky as you would be, you
+are kidnapped and locked in a suspicious room.
+Of course, you have to escape FAST, or risk death by the strong
+lasers that would kill you in an hour's time...
+
+Instructions
+--------------
+During the game, type `help` to show this help message, `help
+[object's name]` to show the object's individual help message and
+commands, `show inventory` to check your inventory`, `enter 
+[place's name]` to enter a place in the game, and `quit` to quit 
+the game.
+
+Whenever you enter a place, the game will always provide you with 
+these information:
+"""
+This is a [name of place].
+You saw [list of interactable items].
+"""
+You may ask for help on how to further interact with these items
+by typing `help` + a space + [name of item in list]. Note that 
+other objects may also be interactable but not shown in the list
+of available items, but their names can definitely be found somewhere
+in the game (eg. by examining an object).
+
+Once you are ready and read through the instructions, press enter to start the game: 
+
+You quit the game. Thank you and goodbye.
+
+END INPUT/OUTPUT
+----------------

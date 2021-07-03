@@ -1,0 +1,170 @@
+Player tries copying and pasting multiline input, and fails.
+
+START INPUT/OUTPUT
+------------------
+
+Welcome to this escape room game!
+
+The plot
+----------
+This is 3100, and many more technologies had been created,
+including strange things like game locks (locks that open if
+you win in a game), x-ray glasses that can see through things
+etc.
+
+You live in this era, and being as unlucky as you would be, you
+are kidnapped and locked in a suspicious room.
+Of course, you have to escape FAST, or risk death by the strong
+lasers that would kill you in an hour's time...
+
+Instructions
+--------------
+During the game, type `help` to show this help message, `help
+[object's name]` to show the object's individual help message and
+commands, `show inventory` to check your inventory`, `enter 
+[place's name]` to enter a place in the game, `help places` to show
+the current level's places and describes your current place
+and `quit` to quit the game.
+
+Whenever you enter a place, the game will always provide you with 
+these information:
+"""
+This is a [name of place].
+You saw [list of interactable items].
+"""
+You may ask for help on how to further interact with these items
+by typing `help` + a space + [name of item in list]. Note that 
+other objects may also be interactable but not shown in the list
+of available items, but their names can definitely be found somewhere
+in the game (eg. by examining an object).
+
+Once you are ready and read through the instructions, press enter to start the game: Welcome to this escape room game!
+
+The plot
+----------
+This is 3100, and many more technologies had been created,
+including strange things like game locks (locks that open if
+you win in a game), x-ray glasses that can see through things
+etc.
+
+You live in this era, and being as unlucky as you would be, you
+are kidnapped and locked in a suspicious room.
+Of course, you have to escape FAST, or risk death by the strong
+lasers that would kill you in an hour's time...
+
+Instructions
+--------------
+During the game, type `help` to show this help message, `help
+[object's name]` to show the object's individual help message and
+commands, `show inventory` to check your inventory`, `enter 
+[place's name]` to enter a place in the game, `help places` to show
+the current level's places and describes your current place
+and `quit` to quit the game.
+
+Whenever you enter a place, the game will always provide you with 
+these information:
+"""
+This is a [name of place].
+You saw [list of interactable items].
+"""
+You may ask for help on how to further interact with these items
+by typing `help` + a space + [name of item in list]. Note that 
+other objects may also be interactable but not shown in the list
+of available items, but their names can definitely be found somewhere
+in the game (eg. by examining an object).
+
+Once you are ready and read through the instructions, press enter to start the game: 
+
+Level 1
+--------
+In this level, there are 1 place(s) you can go: bedroom.
+This is a bedroom.
+You saw door, scissors, bed.
+Enter a command: collect scissors
+cut bed
+collect bed.key
+unlock door.lock
+open door
+`scissors` has been added to your inventory.
+Enter a command: You cut the bed with the scissors.
+Enter a command: `bed.key` has been added to your inventory.
+Enter a command: Lock is opened!
+Enter a command: Door is opened! You completed Level 1! Good job!
+
+Level 2
+--------
+In this level, there are 2 place(s) you can go: living room, kitchen.
+This is a living room.
+You saw drawer, table, kitchen door.
+Enter a command: quit
+You quit the game. Thank you and goodbye.
+
+Level 1
+--------
+In this level, there are 1 place(s) you can go: bedroom.
+This is a bedroom.
+You saw door, scissors, bed.
+Enter a command: `` is not a valid command.
+Enter a command: `plot` is not found.
+Enter a command: `----------` is not a valid command.
+Enter a command: `is 3100, and many more technologies had been created,` is not found.
+Enter a command: `strange things like game locks (locks that open if` is not found.
+Enter a command: `win in a game), x-ray glasses that can see through things` is not found.
+Enter a command: `etc.` is not a valid command.
+Enter a command: `` is not a valid command.
+Enter a command: `live in this era, and being as unlucky as you would be, you` is not found.
+Enter a command: `kidnapped and locked in a suspicious room.` is not found.
+Enter a command: `course, you have to escape fast, or risk death by the strong` is not found.
+Enter a command: `that would kill you in an hour's time...` is not found.
+Enter a command: `` is not a valid command.
+Enter a command: `instructions` is not a valid command.
+Enter a command: `--------------` is not a valid command.
+Enter a command: `the game, type `help` to show this help message, `help` is not found.
+Enter a command: `name]` to show the object's individual help message and` is not found.
+Enter a command: ``show inventory` to check your inventory`, `enter` is not found.
+Enter a command: `name]` to enter a place in the game, `help places` to show` is not found.
+Enter a command: `current level's places and describes your current place` is not found.
+Enter a command: ``quit` to quit the game.` is not found.
+Enter a command: `` is not a valid command.
+Enter a command: `you enter a place, the game will always provide you with` is not found.
+Enter a command: `information:` is not found.
+Enter a command: `"""` is not a valid command.
+Enter a command: `is a [name of place].` is not found.
+Enter a command: `saw [list of interactable items].` is not found.
+Enter a command: `"""` is not a valid command.
+Enter a command: `may ask for help on how to further interact with these items` is not found.
+Enter a command: `typing `help` + a space + [name of item in list]. note that` is not found.
+Enter a command: `objects may also be interactable but not shown in the list` is not found.
+Enter a command: `available items, but their names can definitely be found somewhere` is not found.
+Enter a command: `the game (eg. by examining an object).` is not found.
+Enter a command: `` is not a valid command.
+Enter a command: `you are ready and read through the instructions, press enter to start the game:` is not found.
+Enter a command: `` is not a valid command.
+Enter a command: `1` is not found.
+Enter a command: `--------` is not a valid command.
+Enter a command: `this level, there are 1 place(s) you can go: bedroom.` is not found.
+Enter a command: `is a bedroom.` is not found.
+Enter a command: `saw door, scissors, bed.` is not found.
+Enter a command: `a command: collect scissors` is not a place.
+Enter a command: You need a tool...
+Enter a command: `bed.key` is not found.
+Enter a command: Lock needs a key to unlock.
+Enter a command: Door is locked.
+Enter a command: `has been added to your inventory.` is not found.
+Enter a command: `a command: you cut the bed with the scissors.` is not a place.
+Enter a command: `a command: `bed.key` has been added to your inventory.` is not a place.
+Enter a command: `a command: lock is opened!` is not a place.
+Enter a command: `a command: door is opened! you completed level 1! good job!` is not a place.
+Enter a command: `` is not a valid command.
+Enter a command: `2` is not found.
+Enter a command: `--------` is not a valid command.
+Enter a command: `this level, there are 2 place(s) you can go: living room, kitchen.` is not found.
+Enter a command: `is a living room.` is not found.
+Enter a command: `saw drawer, table, kitchen door.` is not found.
+Enter a command: `a command: quit` is not a place.
+Enter a command: `quit the game. thank you and goodbye.` is not found.
+Enter a command: quit
+You quit the game. Thank you and goodbye.
+
+END INPUT/OUTPUT
+----------------

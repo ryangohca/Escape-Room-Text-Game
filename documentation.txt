@@ -1,0 +1,59 @@
+1. What is your game about?
+My game is about a man in the future, who somehow got tragically locked in many rooms, but he had a chance to escape.
+In this text role-play adventure game, the player can navigate through the levels using commands that would either
+change the game state (eg. open door, cut bed, collect bed.key), or provide information and help (eg. help door, 
+examine bed). Some objects and commands will be inaccessible until the player fulfils its requirement (eg. unlocked
+its key, collected a tool etc). If the player tries to interact an object that he should not be interacting (eg. things
+in a locked drawer), or doing an impossible action (eg, opening a lock without a key), the game would provide a message
+to say that the action is invalid. For the objects that are locked, currently, there are 3 different types of ways to 
+unlock it. The first is the normal key lock, where you need to find a key to unlock it. The second is a password lock, 
+where you need to key in a password to unlock it, The third is a game lock, where you have to succeed in a game to unlock
+it. After the player completes all the levels, the game would end.
+
+Sidenote: The reason why I chose the future is because many other weird things that could not happen in the real world
+can now happen in the game, like the game lock that I had implemented.
+Sidenote 2: Since I randomly chosen a word from dictionary.txt for the Hangman game, there is a very slight chance that
+the word chosen is offensive or inappropriate. (I can't look through everything to remove all these words.)
+Sidenote 3: Answers are at cheats.py.
+
+2. What are some challenges you face? How did you overcome it?
+The main challenge I faced was to provide a basic structure for adding levels at the early stages of planning the game.
+Since I am striving towards the goal to make developing levels much easier by just calling required functions, the planning
+and coding at the start is very important. Without a sturdy base that can enhance extension, the code would soon become
+too complex to maintain. Hence, I would need to carefully craft my code to group similar parts of the program together and 
+ensuring that less repetition is observed, which is honestly not easy.
+
+I remembered that I had to fix a bug that allows players to interact with objects that they shouldn't be interacting with, for
+example interacting with things in a locked drawer. At first, I only prevented the player from collecting objects that are
+locked up, which works then. But, that led to some unnoticed bugs which was only discovered after I tried to interact with a
+locked safe inside a locked drawer. Suddenly, the player can try to unlock the safe (which is locked with a game lock), without
+opening the drawer! Hence, I thought about it and decided to tweak the structure of my objects slightly. Instead of allowing
+the program to decide which objects are accessible, I decided to make the object itself responsible for its accessibility, and
+only I can decide which bjects should or should not be accessible. After some rewriting, my code works!
+
+Another challenge I face was user's response. Since I do not have much people to test my code, I would have no idea how they
+would interact with my game. Do I have clear instructions? Interesting gameplay? I would not know. Fortunately, my friend
+decided to help me by testing it, and the first reaction I observed is that he doesn't know how to interact with the game at
+all. Apparently, all these help was in a `help` command, but he doesn't know how to call the `help` command for the objects of
+the game in the first place! Needless to say, I would need to change my instructions to be more clearer and also gave some examples
+to help the user of this game.
+
+3. Three Key Takeaways from this project.
+a. Planning is important. Without a basic idea on how objects should interact with each other in the code, the code would be a
+unreadable mess. I suffered through a heap of even messier code but resolved it by thinking about whose responsibility is this
+function supposed to be, and park it under the right class. But, I realised that if I had planned earlier on what functions
+each class should have, I would be saved from most of these unneccesary troubles.
+
+b. Readability. In other words, writing code that can be read and understood by yourself and others. But, since I spent most of my time 
+on Commpetitive Programming, where readability would be the last things in any Competitive Programmer's mind 
+(speed is more important), atrocious practices such as 1 character - 2 character naming of variables, no functions to group logical 
+pieces of code etc. are very common. So, I would need to spend a little more time to name my variables and separate logic 
+for this project.
+
+c. Testing, especially peer review testing. When a programmer writes a piece of code, he would be so attached to it that he
+forgets to test the boundary cases of the program, which may fail when another user, unaware of the inners of the program, 
+tries to do funny stuff with the program. Moreover, due to the programmer's familarity with the program, the instructions
+and prompt may be too vague for actual readers to understand and give reasonable inputs to the program to keep the game
+running. Hence, a peer reviewer, especially someone who had not seen your code for the slightest bit, will be crucial. Due
+to human nature, testers will be the most eager to break your beloved program and watch it crumble into pieces, and this 
+feedback is very important for the project to become even better.

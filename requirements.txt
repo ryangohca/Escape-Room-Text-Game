@@ -1,0 +1,8 @@
+Requirements: Python 3.8 or above
+              'dictionary.txt' in the same directory as this file,
+              with a list of words separated by newlines.
+              'command.py', 'cheats.py', 'game_objects.py', 'minigames.py',
+              'levels.py', 'place.py', 'player.py' and 'utils.py' in the
+              same directory as this file.
+Additional Materials: 'documentation.txt' answering the questions for the project.
+                      'sample.txt', a sample run of my game.
